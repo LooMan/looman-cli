@@ -38,7 +38,8 @@ def _createComponentFile(name):
         "\n  );",
         "\n}",
         "\n",
-        "\nexport default " + name
+        "\nexport default " + name + ";",
+        "\n"
     ])
     
     file.close()
